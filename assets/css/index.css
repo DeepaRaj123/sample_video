@@ -1,0 +1,79 @@
+.banner {
+  padding: 10px;
+  background-color: #2F3FB0;
+  color: white;
+}
+
+.banner-text {
+  padding: 8px 20px;
+  margin: 0;
+}
+
+.tips {
+  font-size: 12px;
+  margin-bottom: 2px;
+  color: gray;
+}
+
+.join-info-text {
+  margin-bottom: 2px;
+}
+
+
+.player {
+  width: 480px;
+  height: 320px;
+}
+
+.player-name {
+  margin: 8px 0;
+}
+
+@media (max-width: 640px) {
+  .player {
+    width: 320px;
+    height: 240px;
+  }
+}
+
+.btn-live {
+  background-color: #2F3FB0;
+  color: white;
+  border: 1px solid #2F3FB0;
+}
+
+.btn-live:hover {
+  color: #2F3FB0;
+  background-color: white;
+  border: 1px solid #2F3FB0;
+}
+.player{
+  position: relative;
+ 
+}
+.player{
+  border-style: solid;
+  border-color: green; 
+  border-bottom: transparent;
+}
+
+.player>.micclass{
+  background-color: black;
+  color: #fff;
+  opacity: .9;
+    height: 60px;
+  margin: -64px 0 0 -64px;
+  position: absolute;
+  top: 108%;
+  left:13%;
+  width: 480px;
+  z-index: 1; 
+  border-style: solid;
+  border-color: green; 
+  border-top: transparent;
+}
+
+.button-group{
+ padding-left: 1px;
+
+}
