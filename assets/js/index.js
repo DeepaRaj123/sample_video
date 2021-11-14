@@ -27,7 +27,7 @@ var options = {
   channel: "farbe",
   uid: null,
   token: null,
-  role: "audience" // host or audience
+  role: "host" // host or audience
 };
 
 
